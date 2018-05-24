@@ -1,0 +1,50 @@
+/* Navigation bar*/
+.navbar li{
+	display: inline-block;
+}
+.nav-item:hover{
+	color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+.nav-item .active{
+	
+    background-color:red;
+    
+}
+
+.btn-outline-success {
+    color: #446971;
+
+    border-color: #446971;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+
+.gallery{
+
+    width: 100%;
+    height: 400px;
+    background-color:#446971 
+}
+
+/*Footer */
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #353841;
+}
+footer li img {
+
+    width: 36px;
+    height: 36px;
+    margin: 7px;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}

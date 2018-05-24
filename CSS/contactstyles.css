@@ -1,0 +1,89 @@
+/* Navigation bar*/
+.navbar li{
+	display: inline-block;
+}
+.nav-item:hover{
+	color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+.nav-item .active{
+	
+    background-color:red;
+    
+}
+
+.btn-outline-success {
+    color: #446971;
+
+    border-color: #446971;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+
+
+.contact-section{
+
+   
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    background-image: url(../IMG/night-sky-contact.jpg);
+}
+.contact-section h3{
+    color: white;
+    
+}
+.section-form{
+  width: 300px;
+  height: 400px;
+  
+}
+.checkbox{
+    color: white;
+    font-size: 12px;
+}
+.section-form button{
+     color:#fff;
+     background-color:  none;
+    border-color: #fff;
+    margin-top:10px; 
+}
+.section-form button; hover{
+
+ color: #ffffff;
+ background-color:#446971;
+border-color: #446971;  
+}
+#form-button-facebook{
+
+    background-color: #3b5998;
+    height: 40px;
+    font-size: 17px;
+}
+ #form-button-Google{
+
+    background-color: #d34836;
+    height: 40px;
+    font-size: 17px;
+ }
+/*Footer */
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #353841;
+}
+footer li img {
+
+    width: 36px;
+    height: 36px;
+    margin: 7px;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}

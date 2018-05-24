@@ -1,0 +1,121 @@
+/* Navigation bar*/
+.navbar li{
+    display: inline-block;
+}
+.nav-item:hover{
+    color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+.nav-item .active{
+    
+    background-color:red;
+    
+}
+
+.btn-outline-success {
+    color: #446971;
+
+    border-color: #446971;
+}
+.btn-outline-success:hover {
+    color: #ffffff;
+    background-color:#446971;
+    border-color: #446971;
+}
+
+
+.survival-carousel{
+
+	display: flex;
+	position: relative;
+	background-image: linear-gradient(#353841,#000) ;
+    
+}
+.heading{
+    color: white;
+    width: 300px;
+    margin:auto;
+    height: 500px;
+    margin:20px;
+    display: inline;
+
+   
+}
+.heading h2{
+ text-transform:uppercase;
+ 
+}
+#link{
+
+    font-size: 10px;
+    color: #C9A422;
+}
+.heading a img{
+
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;   
+}
+.heading a img:hover{
+
+    opacity: 0.5;
+    ;
+}
+
+.carousel-inner img{
+
+    width: 800px;
+    height: 480px;
+    opacity: 0.5;
+
+}
+#carouselExampleControls{
+
+    width:85%;
+    height: 500px;
+    display: block;
+    margin: auto;
+
+}
+.survival-carousel a button{
+
+    width: 230px;
+    border-radius: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:#353841 ;
+
+
+}
+.survival-carousel  button:hover{
+    border-color: none;
+    opacity: 0.7;
+    color:#000;
+}
+
+.carousel-inner h1{
+
+    font-size: 35px;
+    color: #fff;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+/*Footer */
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+}
+footer li img {
+
+    width: 36px;
+    height: 36px;
+    margin: 7px;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
